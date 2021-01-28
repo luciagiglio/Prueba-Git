@@ -1,0 +1,22 @@
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+git add archivo > agregar la modificacion a mi area temporal
+git commit > guardar el indice de mi archivo al repositorio
+git log > muestra los indices con sus respectivas modificaciones indicando fecha, hora, texto
+git branch > muestra la rama en la cual se esta ubicado
+git branch nomrbeDeRamaNueva > agregar rama paralela a la creada
+git checkout nombreRama >  posicionarse en la rama
+git status >  muestra los archivos que han sido modificados o los que faltan guardar
+git commit -m "mensaje q se quiere guardar sin entrar en el editor de codigo vim"
+
+vincular la direccion web con el repositorio
+git remote add origin https://github.com/luciagiglio/Prueba.git
+
+git push -u origin nombreRama
+pushear el repositorio a el origen
+
+Git tiene la posibilidad de etiquetar puntos específicos del historial como importantes
+Una etiqueta ligera es muy parecido a una rama que no cambia - simplemente es un puntero a un commit específico.
+
+
+git tag > listar etiquetas
